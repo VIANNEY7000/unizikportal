@@ -1,0 +1,100 @@
+.settings {
+  width: 90%;
+  max-width: 700px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 40px 30px;
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.settings h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 600;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Theme Button (Scoped) */
+.settings button {
+  display: block;
+  margin: 20px auto 40px auto;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.settings button:hover {
+  background: #0056b3;
+}
+
+/* Form Styling (Scoped) */
+.settings form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.settings form h3 {
+  color: #333;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.settings input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.settings input:focus {
+  border-color: #007bff;
+}
+
+/* Dark mode styles */
+.settings.dark {
+  background: #1f1f1f;
+  color: #eaeaea;
+}
+
+.settings.dark input {
+  background: #2c2c2c;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+.settings.dark button {
+  background: #0056b3;
+}
+
+.settings.dark h1 {
+  border-bottom-color: #3399ff;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .settings {
+    width: 95%;
+    padding: 25px 20px;
+  }
+
+  .settings button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.name{
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.all{
+    background-color:navy;
+    padding: 20px;
+    height: 9vh;
+    Button{
+        background-color: brown;
+        padding: 5px 15px;
+        color: white;
+        transition-duration: none;
+    }
+}
